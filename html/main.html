@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+	<title>HTML - Главная</title>
+	
+	<link rel="stylesheet" type="text/css" href="../scripts_etc/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="style_regular.css">
+	
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="../scripts_etc/scrolloverflow.js"></script>
+
+	<script type="text/javascript" src="../scripts_etc/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#7BAABE', '#4BBFC3', '#7BAABE', '#4BBFC3']
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section" id="section0">
+		<div class="block">
+			<p style="
+				text-align: center;
+				margin-top: 10%;
+				font-size: 7em;
+				font-weight: bold;
+				font-family: 'Aver';
+				letter-spacing: 5px; ">
+				HTML.
+			</p>
+			<p style="
+				text-align: center;
+				margin-top: 20%;
+				font-size: 2.5em;
+				font-family: 'Whipsmart';">
+				Что он из себя представляет? 
+			</p>
+		</div>
+		<div class="btnBack">
+			<a href="../index.html"><img src="pics/arrowback.png"></a>
+		</div>
+	</div>
+
+	<div class="section" id="section1">
+		<div class="block">
+			<div style="width: 80%;
+						margin: 0 auto;
+						max-width: 800px;">
+				<p style="
+				    font-size: 2.5em;
+				    text-align: left;
+				    margin: 0;
+				    font-family: 'Whipsmart';">
+					Википедия глаголит: 
+				</p>
+				<div class="wikiQuote">
+					<span style="
+					    font-weight: bold;
+					    font-family: sans-serif;">
+					HTML</span> (от англ. <i>HyperText Markup Language</i> — «язык гипертекстовой разметки») — стандартизированный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке HTML. Язык HTML интерпретируется браузерами; полученный в результате интерпретации форматированный текст отображается на экране монитора компьютера или мобильного устройства.
+				</div>
+				<div style="
+				    font-size: 2em;
+				    text-align: right;
+				    margin-top: 10%;
+				    margin-bottom: 10%;
+				    font-family: 'Whipsmart';">
+					Но это скучно и никому не понятно,<br>ведь так?
+				</div>
+				<div style="
+				    font-size: 2.5em;
+				    text-align: left;
+				    font-family: 'Whipsmart';
+				    font-weight: lighter;">
+				    Более простыми словами, HTML - язык, <br>на котором написано подавляющее большинство сайтов в Сети.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="section2">
+		<div class="block">
+			<div style="
+				width: 80%;
+				margin: auto;
+				max-width: 800px;"
+				vertical-align: middle;>
+				<p style="
+					font-size: 3em;
+					text-align: center;
+					font-family: 'Whipsmart';">
+					На этом же сайте Вы сможете <br>обучиться основам конструирования простейших веб-страниц.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="section3">
+		<div class="button_outer">
+			<a href="http://htmlbook.ru" class="forward">
+				<div class="button_inner">
+					<div class="btn_text">
+						Перейти к htmlbook.ru
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

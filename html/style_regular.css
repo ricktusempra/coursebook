@@ -1,0 +1,200 @@
+@font-face {
+	font-family: 'Aver';
+	src: url('fonts/Aver.ttf');
+}
+@font-face {
+  	font-family: 'Whipsmart'; 
+	src: url('fonts/Whipsmart.ttf');
+}
+body, html {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #7BAABE;
+}
+
+.btnBack {
+	background-color: #4BBFC3;
+	opacity: .5;
+	border: 2px solid black;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	top: 10px;
+	left: 10px;
+	transition: all 1s;
+
+}
+
+.btnBack:hover{
+	transition: all 1s;
+	opacity: 1;
+}
+
+.block {
+	
+	padding: 20px;
+}
+
+
+.wikiQuote { 
+	width: 450px;
+	padding: 10px;
+	border: 2px dashed black;
+	border-radius: 3px;
+	background-color: white;
+	color: #555;
+	font-family: serif;
+	text-align: left;
+}
+
+.section{
+	vertical-align: middle;
+}
+
+.button_outer{
+	margin: 0 auto;
+	width: 505px;
+}
+
+.forward:link{
+	color: #001;
+	text-decoration: none;
+}
+
+.forward:visited{
+	color: #001;
+	text-decoration: none;
+}
+
+.btn_text{
+	font-family: 'Aver';
+	font-size: 2em;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.button_inner{
+	width: 500px;
+	height: 100px;
+	border: 2px solid #500;
+	border-radius: 50px;
+	background-color: white;
+	transition: all .5s;
+}
+
+.button_inner:hover{
+	border-radius:10px;
+	transition: all .5s;
+}
+
+/* ===================== */
+
+a{
+	text-decoration: none;
+}
+
+.all{
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.all div {
+	display: inline-block;
+}
+
+.menu {
+	top: 5px;
+	width: 200px;
+	color: rgb(0,0,0);
+	transition: all 2s;
+	padding: 5px;
+	z-index: 2;
+	position: fixed;
+	background-image: url('pics/bgmenu.png');
+}
+
+.menuBox {
+	width: 150px;
+	position: relative;
+	right: -50px;
+}
+
+.menuHeader {
+	font-weight: bold;
+	font-size: 15px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.menuList {
+	font-weight: bold;
+	position: relative;
+	left: -20px;
+	width: 150px;
+	font-family: serif;
+	list-style-type: none; 
+}
+
+.central {
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+	left: 215px;
+	background-color: #ccccff;
+	padding: 10px;
+
+}
+
+.regularHeader {
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	margin-left: 15px;
+}
+
+.regularText {
+	padding-left: 5px;
+	font-family: sans-serif;
+}
+
+.regularList li {
+	font-family: sans-serif;
+}
+img{
+	opacity: .5;
+	transition: all .3s;
+}
+img:hover{
+	opacity: 1;
+	transition: all .3s;
+}
+
+.regularImg{
+	margin: 0 auto;
+}
+.regularImg p{
+	font-style: italic;
+	text-align: right;
+	font-size: 15px;
+}
+
+.code {
+	font-family: monospace;
+	width: 470px;
+	padding-left: 15px;
+	margin: 7px;
+	background-color: #ddd;
+
+}
+
+.newtab{
+	background-color: white;
+	opacity: 0.7;
+	position: absolute;
+	bottom: 18px;
+	right: 18px;
+}
